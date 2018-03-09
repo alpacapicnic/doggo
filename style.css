@@ -1,0 +1,34 @@
+h1 {
+    font-family: Impact;
+    font-size: 500%;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0px 2px 0 #000,
+    2px 0px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 2px 5px #000;
+}
+header {
+    display: block;
+    width: 100%;
+}
+nav {
+    padding: 0.1rem 0;
+    margin-bottom: 50px;
+}
+.home {
+    background-image: url("spot- background.jpg");
+}
+.homeBio {
+    font-family: Verdana;
+    text-align: center;
+}
+.tag {
+    text-align: center
+}
