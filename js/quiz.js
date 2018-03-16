@@ -6,26 +6,41 @@ var selectedCute;
     for(var i = 0, max = radios.length; i < max; i++) {
         radios[i].onclick = function() {
             selectedSize = this.value;
-            checkButton();
+            checkAnswers();
         }
     }
     var radios = document.forms["form"].elements["floor"];
     for(var i = 0, max = radios.length; i < max; i++) {
         radios[i].onclick = function() {
             selectedFloor = this.value;
-            checkButton();
+            checkAnswers();
         }
     }
     var radios = document.forms["form"].elements["cute"];
     for(var i = 0, max = radios.length; i < max; i++) {
         radios[i].onclick = function() {
             selectedCute = this.value;
-            checkButton();
+            checkAnswers();
         }
     }
 
-    
+function checkAnswers(){
+    localStorage.setItem('size', selectedSize);
+    localStorage.setItem('floor', selectedFloor);
+    localStorage.setItem('cute', selectedCute);
+}
 
+
+/*function checkSize(){
+    if (selectedSize === 'large'){
+        console.log('large');
+    }
+    else console.log('small');
+    
+}*/
+
+
+//document.getElementById("dogChoice").innerHTML = selectedSize;
 
 /*function Box1Checked(){
     alert("Box1 is checked");

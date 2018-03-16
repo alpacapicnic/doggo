@@ -20,40 +20,37 @@
 <h1>QUIZ</h1>
 <p class="homeBio">All the quiz stuff <br>
 </p>
-<div class="quizBackground">
-    <form action="result.html">
-        <p>How large is your home/apartment?<br>
+<div class="clearBackground">
+    <form name="form" action="result.html" id="quiz">
+        <p><strong>What size is your home/apartment?</strong><br>
             <br />
-            <input type="radio" name="size" value="large"  />&nbsp;Large&nbsp;
-            <input type="radio" name="size" value="small"  />&nbsp;Small&nbsp;
-            <input type="radio" name="size" value="closet"  />&nbsp;Closet&nbsp; 
+            <input type="radio" id="size_large" name="size" value="large"  />&nbsp;Large&nbsp;
+            <input type="radio" id="size_small" name="size" value="small"  />&nbsp;Small&nbsp; 
         </p>
-    </form>
-    <br />
-    <form action="result.html">
-            <p>Which do you prefer?<br>
+        <p><strong>Which floor do you prefer?</strong><br>
                 <br />
-                <input type="radio" name="rug" value="shaggy"  />&nbsp;Shaggy&nbsp;
-                <input type="radio" name="rug" value="medium"  />&nbsp;Medium&nbsp; 
-                <input type="radio" name="rug" value="hardwood"  />&nbsp;Hardwood&nbsp; 
-            </p>
-        </form>
-        <br />
-        <form action="result.html">
-                <p>Third question<br>
-                    <br />
-                    <input type="radio" name="rug" value="shaggy"  />&nbsp;Shaggy&nbsp;
-                    <input type="radio" name="rug" value="medium"  />&nbsp;Medium&nbsp; 
-                    <input type="radio" name="rug" value="hardwood"  />&nbsp;Hardwood&nbsp; 
-                </p>
+                <label>
+                <input type="radio" name="floor" value="shaggy"  /><img src="Images/shaggy.jpg" alt="shaggy">
+                <input type="radio" name="floor" value="hardwood"  /><img src="Images/hardwood.jpg" alt="hardwood">
+            </label>
+        </p>
+        <p><strong>Which do you find most cute?</strong><br>
+                <br />
+                <label>
+                <input type="radio" name="cute" value="lion"  /><img src="Images/lion.jpeg" alt="lion">
+                <input type="radio" name="cute" value="fox"  /><img src="Images/fox.jpg" alt="fox">
+                <input type="radio" name="cute" value="bat"  /><img src="Images/bat.jpg" alt="bat">
+            </label>
+        </p>
             <br />
-            <input type="submit" value="Submit" />
+            <button type="submit" value="submit" />I CAN HAZ
             <br />
-            </form>
+    </form>
 </div>
 
 
 
 <footer class="tag">Copyright &copy; 2018 <a href="aboutme.html">ICanHazDoggo??</a></footer>
+<script src="js/quiz.js"></script>
 </body>
 </html>
