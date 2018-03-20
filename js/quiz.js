@@ -29,39 +29,3 @@ function checkAnswers(){
     localStorage.setItem('floor', selectedFloor);
     localStorage.setItem('cute', selectedCute);
 }
-
-
-/*function checkSize(){
-    if (selectedSize === 'large'){
-        console.log('large');
-    }
-    else console.log('small');
-    
-}*/
-
-
-//document.getElementById("dogChoice").innerHTML = selectedSize;
-
-/*function Box1Checked(){
-    alert("Box1 is checked");
-}*/
-
-/*function checkButton(){
-
-    console.log(selectedSize);
-}   
-function checkButton(){
-
-    console.log(selectedFloor);
-}   
-function checkButton(){
-
-    console.log(selectedCute);
-} */  
-
-
-    
-
-    
-
-
